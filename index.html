@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<title>Farrel Muhammad Portofolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- add icon link -->
+	<link rel="icon" href="d:\imageweb\F.png" type="image/x-icon" />
+
+	<style>
+		/*======================================
+//--//-->   ABOUT
+======================================*/
+
+		.about-mf .box-shadow-full {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+		}
+
+		.about-mf .about-img {
+			margin-bottom: 2rem;
+		}
+
+		.about-mf .about-img img {
+			margin-left: 10px;
+		}
+
+		.skill-mf .progress {
+			/* background-color: #cde1f8; */
+			margin: .5rem 0 1.2rem 0;
+			border-radius: 0;
+			height: .7rem;
+		}
+
+		.skill-mf .progress .progress-bar {
+			height: .7rem;
+			background-color: #7DF9FF;
+		}
+
+
+		/* Animation styles */
+		#typing-animation {
+			position: relative;
+			font-size: 30px;
+			font-weight: bold;
+			color: rgb(255, 255, 255);
+			overflow: hidden;
+			white-space: nowrap;
+			animation: typing 3s steps(20, end) infinite;
+		}
+
+		#typing-animation:before {
+			content: "";
+			/* position: absolute; */
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 100%;
+			background-color: #ccc;
+			animation: typing-cursor 0.5s ease-in-out infinite;
+		}
+
+		@keyframes typing {
+			from {
+				width: 0;
+			}
+
+			to {
+				width: 100%;
+			}
+		}
+
+		@keyframes typing-cursor {
+			from {
+				width: 5px;
+			}
+
+			to {
+				width: 0;
+			}
+		}
+
+
+		/* project image zoom effect */
+
+		.zoom-effect {
+			overflow: hidden;
+			transition: transform 0.3s ease-out;
+		}
+
+		.zoom-effect:hover {
+			transform: scale(1.1);
+		}
+	</style>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Farrel Muhammad</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider  owl-carousel">
+			<div class="slider-item ">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+
+						<div class="one-forth d-flex  align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello!</span>
+								<h1 class="mb-4 mt-3">I'm <span>Farrel Muhammad</span></h1>
+
+								<!-- Element to contain animated typing -->
+								<span id="typing-animation"></span>
+
+								<script>
+
+									// Initialize the typing animation
+									const typingAnimationElement = document.getElementById('typing-animation');
+
+									// Create an array of typing text
+									const typingTexts = [
+										'Data Analyst Enthusiast',
+									];
+
+									// Create a function to display the typing animation for a given text
+									function playTypingAnimation(text) {
+										// Loop through each character and add it to the element
+										for (let i = 0; i < text.length; i++) {
+											setTimeout(() => {
+												typingAnimationElement.textContent += text[i];
+											}, i * 200); // Increase the delay to slow down the typing animation
+										}
+
+										// Once the animation is complete, reset the text and start over
+										setTimeout(() => {
+											typingAnimationElement.textContent = '';
+											playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+										}, text.length * 200);
+									}
+
+									// Start the typing animation loop
+									playTypingAnimation(typingTexts[0]);
+
+								</script>
+
+								<br>
+								<br>
+								<h2></h2>
+								<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+								<!-- <br> -->
+								<p><a href="https://www.linkedin.com/in/farrel-muhammad-8a954725b"
+										class="btn btn-primary py-3 px-4">LinkedIn</a>
+									<a href="https://github.com/farrelmuhammad182"
+										class="btn btn-white btn-outline-white py-3 px-4">GitHub</a>
+									<a href="https://drive.google.com/file/d/1LhzeBcE_enicvHLiWzqmGcIaTLco0fJD/view?usp=sharing"
+										class="btn btn-white btn-outline-white py-3 px-4">Resume</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--   About Section-->
+	<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+					<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+										<div class="about-img">
+											<img src="c:\berkas farrel\imageFarrel.jpeg" class="img-fluid rounded b-shadow-a" alt="">
+										</div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+										<div class="about-info">
+											<p><span class="title-s"></span> <span>Farrel Muhammad</span></p>
+											<p><span class="title-s"> </span> <span>Data Analyst Enthusiast</span>
+											</p>
+											<p><span class="title-s"> </span> <span>Entry-level Data Analyst </span>
+											</p>
+											<p><span class="title-s"></span> <span>Bandar Lampung, Indonesia </span></p>
+										</div>
+									</div>
+								</div>
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>SQL</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%;"
+											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>Advance Excel</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%"
+											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>Python</span> <span class="pull-right">70%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 70%"
+											aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>Data Visualization</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%"
+											aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<span>Statistical Analysis</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%"
+											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+
+								<p>I am Farrel Muhammad, a dedicated data analyst with a passion for 
+									transforming raw data into meaningful insights. I hold a Bachelor's degree in 
+									Informatics. Focusing on data visualization, statistical analysis, and dashboard 
+									creation. I am very enthusiastic about learning, always eager to explore new 
+									technologies and contribute to innovative solutions. My goal is to leverage 
+									my skills to drive data-driven decision-making in a dynamic organization.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>: Junior Data Analyst</span>
+									</li>
+									<li class="d-flex"><span>Education:</span> <span>: Informatics <br>
+											Universitas Bandar Lampung</span></li>
+									<li class="d-flex"><span>Language:</span> <span>: Indonesia &amp; English</span></li>
+									<li class="d-flex"><span>Programming Languages:</span> <span>: Python
+											&amp; SQL</span></li>
+									<li class="d-flex"><span>Tools:</span> <span>: Excel, Google Sheets, Big Query, MySQL, PostgreSQL, SQLite, Jupyter notebook, Google Colab, Power BI
+											&amp; Tableau
+										</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>: Data Analysis, Data
+											Visualization, Data Modeling, Analytical Thinking, Time Management
+											&amp; Teamwork </span></li>
+									<li class="d-flex"><span>Interest:</span> <span>: Traveling, Game &amp;
+											Sport</span></li>
+
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="3">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/farrel-muhammad-8a954725b"
+										class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Reasume section -->
+
+	<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Resume</h1>
+					<h2 class="mb-4">Resume</h2>
+					<p>Aspiring data analyst with a strong foundation in data analysis, visualization.
+						Seeking to leverage technical skills and analytical expertise to drive data-driven insights and
+						support organizational growth. .</p>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row">
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2018-2022</span>
+						<h2>Bachelor degree in Informatics</h2>
+						<span class="position">Universitas Bandar Lampung</span>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2023</span>
+						<h2>Mahir Ms. Office dari A-Z</h2>
+						<span class="position">Kelas.com</span>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2024</span>
+						<h2>Introduction to Data Science with Python</h2>
+						<span class="position">DQLab</span>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2024</span>
+						<h2>Intro to Data Analytics</h2>
+						<span class="position">RevoU</span>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2024</span>
+						<h2>Fundamental Database MySQL</h2>
+						<span class="position">Coding Studio</span>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2025</span>
+						<h2>Bootcamp Kilat Data Analyst</h2>
+						<span class="position">harisenin.com</span>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-6 text-center ftco-animate">
+					<p><a href="https://drive.google.com/file/d/1McfoiQs5WokVmWJ715yPpfMB8dJAZde1/view?usp=drive_link"
+							class="btn btn-primary py-4 px-5">Download Certificate</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Project Section-->
+
+	<section class="ftco-section" id="project-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">PROJECTS</h1>
+					<h2 class="mb-4">Projects</h2>
+					<p>Here are sample Data Analytics projects utilizing Excel,Power BI, SQL, Python.</p>
+				</div>
+			</div>
+
+			<!-- Project For Power BI-->
+
+			<h2 class="mb-4"> <a href="https://github.com/dandykurniawan18/Power-BI_project"> Power BI
+					Project</a></h2>
+
+
+
+			<!-- HR Analytics Dashboard-->
+			<!-- Movies Analytics Dashboard -->
+			<!-- Netflix Data Analysis -->
+
+					<!-- Power BI Dashboard Embed -->
+					
+
+			<!-- Dengue Diagnosis and Blood Parameters Analysis Dashboard -->
+			
+					<!-- Power BI Dashboard Embed -->
+					
+
+			<!-- CUS Regional Sales Analysis Dashboard-->
+		
+
+					<!-- Power BI Dashboard Embed -->
+					
+			<!-- Credit card Financial -->
+			
+
+					<!-- Power BI Dashboard Embed -->
+					
+			<!-- Ecomarce Sales -->
+			<!--<section style="width: 100%; max-width: 800px; margin: 0 auto; padding: 20px;">
+
+				<div style="margin-bottom: 40px;">
+
+					Power BI Dashboard Embed -->
+					
+
+			<!-- pizza sales report -->
+			<div>
+				<section style="width: 100%; max-width: 800px; margin: 0 auto; padding: 20px;">
+					<div style="margin-bottom: 40px;">
+
+						<!-- Power BI Dashboard Embed -->
+						<div style="position: relative; width: 100%; padding-top: 56.25%;"> <!-- 16:9 Aspect Ratio -->
+							<iframe title="Pizza Sales Report"
+								src="https://drive.google.com/file/d/1wNin1W48pliCedf1AnSh73pzJh83xXzC/preview" 
+								style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+								allowFullScreen="true">
+							</iframe>
+						</div>
+						
+						<h2 class="project-title">
+							<a href="https://github.com/dandykurniawan18/pizza-Report-Power-BI/tree/main/pizza%20report"
+								target="_blank">Pizza Sales Report</a>
+						</h2>
+
+						<p style="margin-top: 15px; line-height: 1.6;">
+							Laporan penjualan pizza ini menyoroti 5 pizza teratas dan terbawah berdasarkan pendapatan, kuantitas, dan total
+pesanan. Laporan ini mencakup metrik seperti
+total pendapatan, nilai pesanan rata-rata, total item yang terjual, total pesanan, dan rata-rata per pesanan.
+Visualisasi mencakup total pesanan berdasarkan hari dan bulan (diagram garis), pendapatan berdasarkan kategori, ukuran pizza, dan total item yang terjual berdasarkan kategori.
+						</p>
+					</div>
+				</section>
+
+				<!-- CSS for Styling the Title -->
+				<style>
+					.project-title {
+						font-size: 1.5em;
+						font-weight: regular;
+						color: white;
+						margin-bottom: 10px;
+					}
+
+					.project-title a {
+						text-decoration: none;
+						color: inherit;
+						/* keeps initial color black */
+					}
+
+					.project-title a:visited {
+						color: rgb(255, 255, 255);
+						/* keeps visited color black */
+					}
+
+					.project-title a:hover {
+						color: #7DF9FF;
+						/* optional hover color */
+					}
+				</style>
+
+			</div>
+
+
+			<!-- Project For SQL -->
+
+			<h2 class="mb-4"> <a href="https://github.com/dandykurniawan18/SQL-Project"> SQL Project</a></h2>
+			<!-- <div class="row d-flex"> -->
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/sql_ad.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Consumer Goods Ad-Hoc</a></h3>
+							<p>This project serves as a comprehensive SQL analysis in the Consumer Goods sector,
+								specifically tailored to answer
+								ad-hoc business requests. Each SQL query provides a focused insight that supports
+								data-driven decisions,
+								from understanding market reach to analyzing product costs and sales trends.</p>
+						</div>
+					</div>
+				</div> -->
+				<!-- TAirbnb projkect-->
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/airbnb.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									AIRBNB Outlier Detection and EDA</a></h3>
+							<p>TThe AIRBNB Outlier Detection and EDA project involved analyzing Airbnb listings to
+								identify anomalies in pricing,
+								customer satisfaction, and other metrics.This SQL-based project provided insights
+								through exploratory data analysis, helping to highlight patterns and outliers
+								for better decision-making..</p>
+						</div>
+					</div>
+				</div> -->
+				<!-- This is cohort analysis-->
+				<!-- <div class="col-md-4 d-flex ftco-animate"> -->
+					<!-- <div class="blog-entry">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_cohort.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Cohort Analysis Using SQL </a></h3>
+							<p>This analysis aims to perform cohort analysis on an online retail dataset to track
+								customer
+								purchasing behavior over time. By grouping customers based on their first purchase date,
+								we can assess retention,
+								revenue patterns, and engagement.
+							</p>
+						</div>
+					</div>
+				</div> -->
+				<!-- This is pizza sales projkect-->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="https://github.com/dandykurniawan18/SQL-Project/tree/master/SQL-Data-Analysis-Project/Pizza%20Sales%20Analysis%20using%20SQL"
+							class="block-20 zoom-effect" style="background-image: url('images/pizza.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://github.com/dandykurniawan18/SQL-Project/tree/master/SQL-Data-Analysis-Project/Pizza%20Sales%20Analysis%20using%20SQL">
+									Pizza Sales Analysis Using SQL </a></h3>
+							<p>Tujuan dari proyek ini adalah 
+								menganalisis data penjualan pizza menggunakan kueri SQL pada beberapa tabel terkait. 
+								Ini akan membantu mengungkap tren, pendapatan, preferensi pelanggan, dan metrik utama lainnya.
+
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/sql_rfm.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									RFM Segmentation on Sales Data </a></h3>
+							<p>This project performs RFM (Recency, Frequency, Monetary) segmentation on sales data to
+								categorize customers based on
+								their purchasing behavior. The RFM model helps identify key customer segments such as
+								Loyal Customers, Potential Churners, and Big Spenders.
+
+							</p>
+						</div>
+					</div>
+				</div> -->
+
+			<!-- </div> -->
+			<!-- Project For Excel -->
+
+			<h2 class="mb-4"> <a href="https://github.com/dandykurniawan18/Excell_project"> Excel Project</a></h2>
+			 <!-- <div class="row d-flex">
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect"
+							style="background-image: url('images/Ex_HR\ Attirition\ Dasgboard.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">HR
+									Attrition Analysis Dashboard</a></h3>
+							<p>HR Attrition Analysis Dashboard that provides insights into employee turnover trends.
+								The dashboard features data transformation, visualization, and key metrics analysis
+								using Power Query, Pivot Tables, and Excel.</p>
+						</div>
+					</div>
+				</div> -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/dandykurniawan18/Excell_project/tree/main/cofee%20sales"
+							class="block-20 zoom-effect"
+							style="background-image: url('images/Ex_Coffee\ Shop\ Sales\ Dashboard.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://github.com/dandykurniawan18/Excell_project/tree/main/cofee%20sales">Coffee
+									Shop Sales Dashboard</a></h3>
+							<p>Dasbor Penjualan Kedai Kopi menawarkan analisis terperinci 
+								tentang kinerja penjualan di kedai kopi, dengan fokus pada kategori produk, 
+								tren penjualan, dan perilaku pelanggan. Dasbor ini memungkinkan pemilik kedai 
+								kopi untuk mengoptimalkan penawaran mereka dan memahami dinamika bisnis mereka dengan lebih baik.</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/Ex_Retail\ Sale.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">Retail
+									Sale Analysis Dashboard </a></h3>
+							<p>The Retail Sale Analysis Dashboard evaluates sales performance across various regions,
+								product categories, and time periods.
+								It serves as a vital tool for retail managers to monitor sales trends, identify
+								top-selling products, and make informed decisions.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>  -->
+
+			<!-- Project For Python -->
+
+			<h2 class="mb-4"> <a href="https://github.com/dandykurniawan18/python_Project"> Python Project</a>
+			</h2>
+			<!-- <div class="row d-flex">
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_food.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">Food
+									Delivery Cost Analysis Using Python</a></h3>
+							<p>This project, Food Delivery Cost Analysis Using Python, explores the costs,
+								discounts, and profitability within a food delivery dataset.
+								Using Python for data cleaning, transformation, and visualization,
+								the project provides insights into cost distribution, profit margins, and
+								identifies areas for potential cost optimization.</p>
+						</div>
+					</div>
+				</div> -->
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_Adult.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Adult Income Analysis</a></h3>
+							<p>This project analyzes the Adult Income dataset, examining demographic and employment
+								factors associated with income
+								levels (<=50K or>50K). The goal is to uncover socio-economic patterns and key factors
+									influencing higher income,
+									providing insights for policy-making, HR, and socio-economic research.</p>
+						</div>
+					</div>
+				</div> -->
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/airbnb.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Airbnb Listings EDA </a></h3>
+							<p>This project analyzes New York City's 2024 Airbnb listings, examining pricing,
+								availability,
+								and guest reviews through EDA and geospatial visualization to gain insights into the
+								short-term rental market..</p>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_amazon\ rain.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Amazon Rainforest Fire Data Analysis</a></h3>
+							<p>The Amazon Rainforest Fire Data Analysis project examines forest fire data in Brazil's
+								Amazon from 1998 to 2017,
+								analyzing trends, seasonal patterns, and regional differences to uncover insights for
+								improved fire management and understanding of ecological challenges.</p>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_amazon_sales.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Amazon Sales Analysis</a></h3>
+							<p>This project involves an in-depth analysis of sales data to uncover insights into
+								customer behavior, product performance, and sales trends.
+								The analysis leverages various visualization techniques to represent data effectively
+								and make informed decisions.</p>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_cohort.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Customer Churn analysis</a></h3>
+							<p>The Customer Churn Analysis project aims to identify the key factors contributing to
+								customer churn and provide
+								actionable insights to enhance customer retention. The analysis leverages various data
+								science techniques,
+								including exploratory data analysis, feature engineering, and machine learning modeling.
+							</p>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_fake.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Fake News Detection Using ML</a></h3>
+							<p>The spread of misinformation through online platforms is a growing concern. Fake news can
+								have a significant negative impact on society, influencing public opinion and even
+								swaying elections.
+								This project aims to develop a machine learning model that can automatically classify
+								news articles as real or fake, aiding users in discerning reliable information.</p>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_play.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Google Play Store Apps Data Analysis</a></h3>
+							<p>The purpose of this analysis is to explore, clean, and analyze the Google Play Store
+								dataset to gain insights into app ratings, categories, reviews,
+								and pricing. This project aims to answer various queries about the dataset and provide
+								statistical insights and visualizations to help understand
+								trends and patterns.</p>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_heart.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Heart Disease Analysis </a></h3>
+							<p>This project analyzes a heart disease dataset to identify factors that influence the
+								likelihood of heart disease. Using Python, we explore data patterns,
+								visualize important features, and highlight the relationships between different health
+								indicators.</p>
+						</div>
+					</div>
+				</div> -->
+
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/dandykurniawan18/python_Project/tree/master/netflix%20data%20analyst"
+							class="block-20 zoom-effect" style="background-image: url('images/py_net.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="https://github.com/dandykurniawan18/python_Project/tree/master/netflix%20data%20analyst">
+									Netflix & IMDB Data Analysis</a></h3>
+							<p>Analisis data Netflix ini memberikan wawasan tentang 
+								distribusi dan pertumbuhan film dan acara TV di platform tersebut. 
+								Proyek ini berfokus pada pemahaman perluasan konten menurut kategori dan negara, 
+								menganalisis demografi target, dan mengidentifikasi genre dan peringkat paling populer di berbagai wilayah.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_vihecal.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Police Vehicle Checking Analysis</a></h3>
+							<p>The purpose of this project is to analyze police vehicle stop data to uncover trends and
+								insights, particularly focusing on gender disparities, violation types, search rates,
+								and other factors that may affect the outcome of stops. Using Python for data
+								analysis allows us to perform detailed data cleaning, filtering, grouping, and
+								visualization, helping to understand how various factors influence police stops.</p>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="httpgithub"
+							class="block-20 zoom-effect" style="background-image: url('images/py_spotifiy.webp');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+
+							<h3 class="heading"><a
+									href="httpgithub">
+									Spotify music analysis</a></h3>
+							<p>This project explores Spotify's audio data to uncover trends in song popularity,
+								duration, and genre characteristics over time.
+								Through data cleaning, analysis, and visualization, we aim to gain insights into
+								listener preferences and the evolution of music.</p>
+						</div>
+					</div>
+				</div>
+
+			</div> -->
+
+		</div>
+	</section>
+	<!-- Achivement to github section-->
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="container">
+			<div class="row d-md-flex align-items-center">
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+						<div class="text">
+							<strong class="number" data-number="1">0</strong>
+							<span>Achievements</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+						<div class="text">
+							<strong class="number" data-number="3">0</strong>
+							<span>Projects</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/mna.jpg)">
+			<!-- <div class="container"> -->
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>More projects on<span> Github </span> </h2>
+					<div class="heading">
+						<br>
+						<p><a href="https://github.com/farrelmuhammad182" class="btn btn-primary py-3 px-5">GitHub</a></p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Contact Section -->
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact ME</h2>
+					<p>Below are the details to reach out to me!</p>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<a href="https://www.google.co.id/maps/place/Warkop+99/@-6.335704,106.8236176,17z/data=!4m15!1m8!3m7!1s0x2e69ef47dbbc4457:0xaba0712e91e92f42!2sWarkop+99!8m2!3d-6.335704!4d106.828231!10e1!16s%2Fg%2F11fb0s3dbx!3m5!1s0x2e69ef47dbbc4457:0xaba0712e91e92f42!8m2!3d-6.335704!4d106.828231!16s%2Fg%2F11fb0s3dbx?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+							class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</a>
+						<h3 class="mb-4">Address</h3>
+						<p>Bandar Lampung, Lampung, Indonesia</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<a href="tel:+6289622435587" class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</a>
+						<h3 class="mb-4">Contact Number</h3>
+						<p><a href="tel:+6285758133580">+6285758133580</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<a href="farrelmuhammad182@gmail.com"
+							class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</a>
+						<h3 class="mb-4">Email Address</h3>
+						<p><a href="mailto:farrelmuhammad182@gmail.com">farrelmuhammad182@gmail.com</a></p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center">
+						<a href="https://drive.google.com/file/d/11jkN0wDSr9jvghsGw7U_okxB7QpQdHCW/view?usp=drive_link"
+							target="_blank" class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</a>
+						<h3 class="mb-4">Download Resume</h3>
+						<p><a href="https://drive.google.com/file/d/11jkN0wDSr9jvghsGw7U_okxB7QpQdHCW/view?usp=drive_link"
+								target="_blank">Resume Link</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<br>
+			<!-- <br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question? </span> <a href="https://forms.gle/cdFdWnuwJ6V5D9ys8"
+							class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+			<br> -->
+			<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+				<li class="ftco-animate normal-txt">Find me on </li>
+				<li class="ftco-animate"><a href="https://github.com/farrelmuhammad182"><span class="icon-github"></span></a>
+				</li>
+				<li class="ftco-animate"><a href="https://www.linkedin.com/in/farrel-muhammad-8a954725b"><span
+							class="icon-linkedin"></span></a></li>
+				<li class="ftco-animate"><a href="https://www.instagram.com/farrelm150/"><span
+							class="icon-instagram"></span></a></li>
+			</ul>
+			<br>
+		</div>
+		</div>
+	</section>
+
+
+	<!-- Footer section for all right -->
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						&copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+							href="https://www.linkedin.com/in/farrel-muhammad-8a954725b" target="_blank">Farrel Muhammad</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
